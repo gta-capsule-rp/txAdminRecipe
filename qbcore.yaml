@@ -478,6 +478,11 @@ tasks:
     dest: ./resources/[qb]/qb-fishing
     ref: main
     src: git@github.com:gta-capsule-rp/qb-fishing.git
+   
+  - action: download_github
+    dest: ./resources/[capsule]
+    ref: main
+    src: git@github.com:gta-capsule-rp/capsule-base.git
     
   # Clean up
   - action: remove_path
