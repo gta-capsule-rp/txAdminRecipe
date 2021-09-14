@@ -329,7 +329,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-cityhall
     ref: main
-    src: https://github.com/qbcore-framework/qb-cityhall
+    src: git@github.com:gta-capsule-rp/qb-cityhall.git
 
   - action: download_github
     dest: ./resources/[qb]/qb-casino
