@@ -171,7 +171,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-hud
     ref: main
-    src: https://github.com/qbcore-framework/qb-hud
+    src: git@github.com:gta-capsule-rp/qb-hud.git
 
   - action: download_github
     dest: ./resources/[qb]/qb-bossmenu
