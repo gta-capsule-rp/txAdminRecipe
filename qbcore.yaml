@@ -474,6 +474,11 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-interior
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-fishing
+    ref: main
+    src: git@github.com:gta-capsule-rp/qb-fishing.git
+    
   # Clean up
   - action: remove_path
     path: ./tmp
