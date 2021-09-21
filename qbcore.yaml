@@ -8,7 +8,7 @@ description: An advanced FiveM RP framework including jobs, gangs, housing & mor
 tasks:
   #  Download Base Files
   - action: download_github
-    src: https://github.com/gta-capsule-rp/txAdminRecipe.git
+    src: https://github.com/gta-capsule-rp/txAdminRecipe
     ref: main
     dest: ./tmp/qbcore
 
@@ -49,7 +49,7 @@ tasks:
   - action: download_github
     dest: ./resources/[standalone]/bob74_ipl
     ref: master
-    src: https://github.com/gta-capsule-rp/bob74_ipl.git
+    src: https://github.com/gta-capsule-rp/bob74_ipl
     
   - action: download_github
     dest: ./resources/[standalone]/safecracker
@@ -171,7 +171,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-hud
     ref: main
-    src: https://github.com/gta-capsule-rp/qb-hud.git
+    src: https://github.com/gta-capsule-rp/qb-hud
 
   - action: download_github
     dest: ./resources/[qb]/qb-bossmenu
@@ -329,7 +329,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-cityhall
     ref: main
-    src: https://github.com/gta-capsule-rp/qb-cityhall.git
+    src: https://github.com/gta-capsule-rp/qb-cityhall
 
   - action: download_github
     dest: ./resources/[qb]/qb-casino
@@ -477,12 +477,12 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-fishing
     ref: main
-    src: https://github.com/gta-capsule-rp/qb-fishing.git
+    src: https://github.com/gta-capsule-rp/qb-fishing
    
   - action: download_github
     dest: ./resources/[capsule]
     ref: main
-    src: https://github.com/gta-capsule-rp/capsule-base.git
+    src: https://github.com/gta-capsule-rp/capsule-base
     
   # Clean up
   - action: remove_path
