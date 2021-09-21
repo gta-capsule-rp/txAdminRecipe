@@ -479,10 +479,10 @@ tasks:
     ref: main
     src: https://github.com/gta-capsule-rp/qb-fishing
    
-  - action: download_github
-    dest: ./resources/[capsule]
-    ref: main
-    src: https://github.com/gta-capsule-rp/capsule-base
+ #- action: download_github
+ #  dest: ./resources/[capsule]
+ #  ref: main
+ #  src: https://github.com/gta-capsule-rp/capsule-base
     
   # Clean up
   - action: remove_path
