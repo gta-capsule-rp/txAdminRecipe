@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS `houselocations` (
   `coords` text DEFAULT NULL,
   `owned` tinyint(1) DEFAULT NULL,
   `price` int(11) DEFAULT NULL,
-  `tier` tinyint(1) DEFAULT NULL,
+  `tier` smallint(1) DEFAULT NULL,
   `garage` text DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `name` (`name`)
@@ -198,8 +198,8 @@ CREATE TABLE IF NOT EXISTS `players` (
   `metadata` text NOT NULL,
   `inventory` longtext DEFAULT NULL,
   `last_updated` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
-  PRIMARY KEY (`id`),
-  KEY `citizenid` (`citizenid`),
+  PRIMARY KEY (`citizenid`),
+  KEY `id` (`id`),
   KEY `last_updated` (`last_updated`),
   KEY `license` (`license`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1;
