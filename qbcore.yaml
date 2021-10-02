@@ -478,6 +478,11 @@ tasks:
     dest: ./resources/[qb]/qb-fishing
     ref: main
     src: https://github.com/gta-capsule-rp/qb-fishing
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-target
+    ref: main
+    src: https://github.com/gta-capsule-rp/qb-target
    
  #- action: download_github
  #  dest: ./resources/[capsule]
