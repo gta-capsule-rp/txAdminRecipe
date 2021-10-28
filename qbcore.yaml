@@ -65,12 +65,7 @@ tasks:
     dest: ./resources/[standalone]/interact-sound
     ref: master
     src: https://github.com/gta-capsule-rp/interact-sound
-    
-  - action: download_github
-    dest: ./resources/[standalone]/PolyZone
-    ref: master
-    src: https://github.com/mkafrin/PolyZone
-    
+     
   - action: download_github
     dest: ./resources/[standalone]/mhacking
     ref: main
